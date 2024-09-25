@@ -203,7 +203,7 @@ header {
 }
 .service__desc {
   width: 468px;
-  margin: 0 auto;
+  margin: 18px auto 0;
 }
 
 .service__heading,
@@ -274,4 +274,64 @@ header {
 
 .service__btn {
   margin-top: 70px;
+}
+
+/* Code phần work */
+.work {
+  background: #f6fbff;
+  padding: 100px 0;
+}
+
+.work .section-heading {
+  text-align: start;
+}
+
+.work__desc {
+  width: 468px;
+}
+
+.work-list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.work-item {
+  padding: 43px;
+  border-radius: 4px;
+  background: #fff;
+  border: 16px solid #eaf6ff;
+}
+
+.work-item:hover {
+  border-color: #2e80ce;
+  transform: translateY(-16px);
+}
+
+.work-item__heading {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.work-item__desc {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  max-width: 254;
+  margin-top: 28px;
+}
+
+.work-item__more {
+  color: #2e80ce;
+  margin-top: 18px;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
 }
